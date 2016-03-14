@@ -13,8 +13,48 @@ block content
     .container
         div.col-lg-2
             h3 FILTERS
-            p filters
-            
+            div(id='annual_fee_content')
+                h5 Annual Fee
+                form
+                    input(type='radio' name='annual_fee_option' value='1')
+                    | Yes
+                    br
+                    input(type='radio' name='annual_fee_option' value='0')
+                    | No
+                    br
+
+            div(id='card_network_content')
+                h5 Card Network
+                form
+                    input(type='radio' name='card_network_option' value='0')
+                    | Visa
+                    br
+                    input(type='radio' name='card_network_option' value='1')
+                    | Mastercard
+                    br
+                    input(type='radio' name='card_network_option' value='2')
+                    | Discover
+                    br
+                    input(type='radio' name='card_network_option' value='3')
+                    | Amex
+                    br
+
+            div(id='credit_score_content')
+                h5 Credit Score
+                form
+                    input(type='radio' name='credit_score_option' value='0')
+                    | 720+
+                    br
+                    input(type='radio' name='credit_score_option' value='1')
+                    | 690 - 719
+                    br
+                    input(type='radio' name='credit_score_option' value='2')
+                    | 630 - 689
+                    br
+                    input(type='radio' name='credit_score_option' value='3')
+                    | 300 - 629
+                    br
+
         div.col-lg-10
             table(border="1")
                 thead
