@@ -56,8 +56,12 @@ block content
                     br
 
         - var credit_cards = [['Capital One Venture Rewards Credit Card', "15.65% - 24.15% Variable*", "0% until November 2016", "$89", "$400"], ['Barclaycard Arrival Plus World Elite MasterCard', "23.9%", "N/A*", "$59", "$400"], ['Citi ThankYou Premier Card', "See terms*", "N/A*", "$95", "$500"], ['Chase Sapphire Preferred', "N/A*", "N/A*", "$95", "$500"], ['Citi Hilton HHonors Visa Signature Card', "11.24% – 23.24% Variable* on purchases & balance transfers", "N/A*", "$0", "$375"]];
-        - var names = ["Capital One Venture Rewards Credit Card", "Barclaycard Arrival Plus World Elite MasterCard", "Citi ThankYou Premier Card", "Chase Sapphire Preferred", "Citi Hilton HHonors Visa Signature Card"];
-        - var images = ["/images/capital_one.jpg",  "/images/barclaycard.jpg", "/images/citi.jpg", "/images/chase.jpg", "/images/citi_1.jpg"];
+        -
+            var names = ["Capital One Venture Rewards Credit Card", "Barclaycard Arrival Plus World Elite MasterCard",
+                         "Citi ThankYou Premier Card", "Chase Sapphire Preferred", "Citi Hilton HHonors Visa Signature Card"];
+        -
+            var images = ["/images/capital_one.jpg",  "/images/barclaycard.jpg", "/images/citi.jpg", "/images/chase.jpg",
+                          "/images/citi_1.jpg"];
         - var stars = [4, 3.5, 3, 4, 4];
         - var reviews = [75, 18, 16, 73, 2];
         - var intro_aprs = ["N/A*", "0% for 12 months on purchases", "N/A*", "N/A*", "0% for 6 months on purchases"];
@@ -93,7 +97,9 @@ block content
 
                     each name, index in names
                         tr
-                            td= names[index]
+                            td
+                                h5=names[index]
+                                img(src=images[index])
                             td= reg_aprs[index]
                             td= reg_balance_transfers[index]
                             td= annual_fees[index]
