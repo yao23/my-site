@@ -96,11 +96,21 @@ block content
                     //        td(colspan='5')=details[index]
 
                     each name, index in names
-                        tr
+                        tr.data_row(data-annual-fee=annual_fee_options[index] data-card-network=card_network_options[index] data-credit-score=credit_score_options[index])
                             td
                                 h5=names[index]
                                 img(src=images[index])
+                                br
+                                div.text_section
+                                    span="star: " + stars[index]
+                                    span="review: " + reviews[index]
+                                div.text_section
+                                    span="(icon)"
+                                    span.detail(data-show='0')="Show Details"
                             td= reg_aprs[index]
                             td= reg_balance_transfers[index]
                             td= annual_fees[index]
                             td= bonus_values[index]
+
+                        tr.detail_row(style='display:none')
+                            td(colspan='5')=details[index]
