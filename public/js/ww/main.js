@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-  $('#credit_cards').tablesorter();
+  //$('#credit_cards').tablesorter();
 
   //$('.detail_row').hide(); // use css now
 

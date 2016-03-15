@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d7daea5-5fb4-4a13-bd2c-90e41c0ebac8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-1.12.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/layouts/default.jade" afterPath="$PROJECT_DIR$/templates/layouts/default.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ww/main.js" afterPath="$PROJECT_DIR$/public/js/ww/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/credit_cards.jade" afterPath="$PROJECT_DIR$/templates/views/credit_cards.jade" />
     </list>
     <ignored path="my-site.iws" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="default.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.333333">
-              <caret line="24" column="68" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="68" />
+            <state vertical-scroll-proportion="-5.462963">
+              <caret line="103" column="69" selection-start-line="103" selection-start-column="66" selection-end-line="103" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -127,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/templates/views/credit_cards.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-16.37037">
-              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -218,8 +216,8 @@
       <file leaf-file-name="blog.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/views/blog.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.9444444">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -260,8 +258,8 @@
         <option value="$PROJECT_DIR$/public/js/ww/jquery.tablesorter.js" />
         <option value="$PROJECT_DIR$/public/js/jquery/jquery-1.12.1.min.js" />
         <option value="$PROJECT_DIR$/templates/layouts/default.jade" />
-        <option value="$PROJECT_DIR$/templates/views/credit_cards.jade" />
         <option value="$PROJECT_DIR$/public/js/ww/main.js" />
+        <option value="$PROJECT_DIR$/templates/views/credit_cards.jade" />
       </list>
     </option>
   </component>
@@ -1003,46 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/contact.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/gallery.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.333333">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/post.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/blog.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666">
-          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jquery/jquery-1.12.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1063,10 +1021,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+    <entry file="file://$PROJECT_DIR$/templates/views/blog.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9444444">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6666666">
+          <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/post.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/gallery.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.333333">
-          <caret line="24" column="68" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="68" />
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/contact.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.462963">
+          <caret line="103" column="69" selection-start-line="103" selection-start-column="66" selection-end-line="103" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1074,7 +1072,7 @@
     <entry file="file://$PROJECT_DIR$/templates/views/credit_cards.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.37037">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
