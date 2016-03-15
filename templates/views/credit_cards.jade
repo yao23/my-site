@@ -75,6 +75,12 @@ block content
         - var rewards_rates = ["2.0%", "2 miles", "1 point per Dollar", "1.0%", "Points Per Dollar"];
         - var bonus_values = ["$400", "$400", "$500", "$500", "$375"];
         - var annual_rewards = ["$588", "$603", "$467", "$443", "$428"];
+        -
+            var apply_links = ["https://www.capitalone.com/credit-cards/venture/",
+            "https://home.barclaycardus.com/cards/barclaycard-arrival-plus-world-elite-mastercard.html",
+            "https://www.citi.com/credit-cards/credit-card-details/citi.action?ID=citi-thankyou-premier-credit-card",
+            "https://creditcards.chase.com/credit-cards/sapphire-preferred-card.aspx",
+            "https://www.citi.com/credit-cards/credit-card-details/citi.action?ID=hilton-hhonors-visa-signature-card"];
         - var details = ["- Enjoy a one-time bonus of 40,000 miles once you spend $3,000 on purchases within the first 3 months, equal to $400 in travel<br><br>- Earn unlimited 2X miles per dollar on every purchase, every day<br><br>- Fly any airline, stay at any hotel, anytime", "- Earn 40,000 bonus miles after you spend $3,000 onpurchases in the first 90 days — that's enough to redeem for a $400 travel statement credit<br><br>- Earn 2X miles on all purchases<br><br>- Get 5% miles back to use toward your next redemption, every time you redeem", "- Earn 40,000 bonus points after $3,000 in purchases within the first 3 months of account opening - redeemable for $400 in gift cards, $500 for airfare, or other great rewards.<br><br>- Earn 3X ThankYou Points on Travel including Gas, 2X ThankYou Points on Dining Out and Entertainment, and 1XThankYou Points on Other Purchases<br><br>- ThankYou® Points are worth 25% more when redeemed for travel through thankyou.com, as compared to gift cards", "- Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®<br><br>- Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine<br><br>- 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases", "- For a limited time: Earn 75,000 Hilton HHonors™ Bonus Points after making $2,000 in purchases within the first 3 months of account opening*<br><br>- Earn 6 HHonors Bonus Points for each $1 spent at any participating hotel within the Hilton Portfolio.*<br><br>- Earn 3 HHonors Bonus Points for each $1 spent on purchases at supermarkets, drugstores and gas stations.*"];
 
         div.col-lg-10
@@ -103,14 +109,16 @@ block content
                                 br
                                 div.text_section
                                     span="star: " + stars[index]
-                                    span="review: " + reviews[index]
+                                    span.review="review: " + reviews[index]
                                 div.text_section
                                     span="(icon)"
                                     span.detail(data-show='0')="Show Details"
-                            td= reg_aprs[index]
-                            td= reg_balance_transfers[index]
-                            td= annual_fees[index]
-                            td= bonus_values[index]
-
+                            td.num_text(width='20%')= reg_aprs[index]
+                            td.num_text(width='20%')= reg_balance_transfers[index]
+                            td.num_text(width='10%')= annual_fees[index]
+                            td
+                                div=bonus_values[index]
+                                div#apply_link
+                                    a(href=$apply_links[index] target='_blank') Apply Now
                         tr.detail_row(style='display:none')
                             td(colspan='5')=details[index]
