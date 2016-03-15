@@ -71,10 +71,18 @@ block content
                         th Annual Fee
                         th Promotion
                 tbody
-                    for credit_card, index in credit_cards
-                        tr.data_row(data-annual-fee=annual_fee_options[index] data-card-network=card_network_options[index] data-credit-score=credit_score_options[index])
-                            for card_info in credit_card
-                                td= card_info
+                    //for credit_card, index in credit_cards
+                    //    tr.data_row(data-annual-fee=annual_fee_options[index] data-card-network=card_network_options[index] data-credit-score=credit_score_options[index])
+                    //        for card_info in credit_card
+                    //            td= card_info
+                    //
+                    //    tr.detail_row(style='display:none')
+                    //        td(colspan='5')=details[index]
 
-                        tr.detail_row(style='display:none')
-                            td(colspan='5')=details[index]
+                    each aClass in credit_cards
+                        tr
+                            td= 1
+                            td= 2
+                            td= 3
+                            td= 4
+                            td= 5
