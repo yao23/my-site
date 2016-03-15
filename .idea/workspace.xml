@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d7daea5-5fb4-4a13-bd2c-90e41c0ebac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/views/credit_cards.jade" afterPath="$PROJECT_DIR$/templates/views/credit_cards.jade" />
     </list>
     <ignored path="my-site.iws" />
@@ -124,8 +123,8 @@
       <file leaf-file-name="credit_cards.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/views/credit_cards.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8366337">
-              <caret line="80" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.92574257">
+              <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -994,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/credit_cards.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8366337">
-          <caret line="80" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.92574257">
+          <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
           <folding />
         </state>
       </provider>

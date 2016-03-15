@@ -56,9 +56,21 @@ block content
                     br
 
         - var credit_cards = [['Capital One Venture Rewards Credit Card', "15.65% - 24.15% Variable*", "0% until November 2016", "$89", "$400"], ['Barclaycard Arrival Plus World Elite MasterCard', "23.9%", "N/A*", "$59", "$400"], ['Citi ThankYou Premier Card', "See terms*", "N/A*", "$95", "$500"], ['Chase Sapphire Preferred', "N/A*", "N/A*", "$95", "$500"], ['Citi Hilton HHonors Visa Signature Card', "11.24% – 23.24% Variable* on purchases & balance transfers", "N/A*", "$0", "$375"]];
+        - var names = ["Capital One Venture Rewards Credit Card", "Barclaycard Arrival Plus World Elite MasterCard", "Citi ThankYou Premier Card", "Chase Sapphire Preferred", "Citi Hilton HHonors Visa Signature Card"];
+        - var images = ["/images/capital_one.jpg",  "/images/barclaycard.jpg", "/images/citi.jpg", "/images/chase.jpg", "/images/citi_1.jpg"];
+        - var stars = [4, 3.5, 3, 4, 4];
+        - var reviews = [75, 18, 16, 73, 2];
+        - var intro_aprs = ["N/A*", "0% for 12 months on purchases", "N/A*", "N/A*", "0% for 6 months on purchases"];
+        - var reg_aprs = ["15.65% - 24.15% Variable*", "23.9%", "See terms*", "N/A*", "11.24% – 23.24% Variable* on purchases & balance transfers"];
+        - var intro_balance_transfers = ["N/A*", "0% for 12 months", "N/A*", "0% for 12 months", "N/A*"];
+        - var reg_balance_transfers = ["0% until November 2016", "N/A*", "N/A*", "N/A*", "N/A*"];
+        - var annual_fees = ["$89", "$59", "$95", "$95", "$0"];
         - var annual_fee_options = [1, 1, 1, 1, 0];
         - var card_network_options = [0, 1, 1, 0, 0];
         - var credit_score_options = [0, 2, 1, 3, 4];
+        - var rewards_rates = ["2.0%", "2 miles", "1 point per Dollar", "1.0%", "Points Per Dollar"];
+        - var bonus_values = ["$400", "$400", "$500", "$500", "$375"];
+        - var annual_rewards = ["$588", "$603", "$467", "$443", "$428"];
         - var details = ["- Enjoy a one-time bonus of 40,000 miles once you spend $3,000 on purchases within the first 3 months, equal to $400 in travel<br><br>- Earn unlimited 2X miles per dollar on every purchase, every day<br><br>- Fly any airline, stay at any hotel, anytime", "- Earn 40,000 bonus miles after you spend $3,000 onpurchases in the first 90 days — that's enough to redeem for a $400 travel statement credit<br><br>- Earn 2X miles on all purchases<br><br>- Get 5% miles back to use toward your next redemption, every time you redeem", "- Earn 40,000 bonus points after $3,000 in purchases within the first 3 months of account opening - redeemable for $400 in gift cards, $500 for airfare, or other great rewards.<br><br>- Earn 3X ThankYou Points on Travel including Gas, 2X ThankYou Points on Dining Out and Entertainment, and 1XThankYou Points on Other Purchases<br><br>- ThankYou® Points are worth 25% more when redeemed for travel through thankyou.com, as compared to gift cards", "- Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®<br><br>- Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine<br><br>- 2X points on travel and dining at restaurants & 1 point per dollar spent on all other purchases", "- For a limited time: Earn 75,000 Hilton HHonors™ Bonus Points after making $2,000 in purchases within the first 3 months of account opening*<br><br>- Earn 6 HHonors Bonus Points for each $1 spent at any participating hotel within the Hilton Portfolio.*<br><br>- Earn 3 HHonors Bonus Points for each $1 spent on purchases at supermarkets, drugstores and gas stations.*"];
 
         div.col-lg-10
@@ -79,10 +91,10 @@ block content
                     //    tr.detail_row(style='display:none')
                     //        td(colspan='5')=details[index]
 
-                    each aClass in credit_cards
+                    each name, index in names
                         tr
-                            td= 1
-                            td= 2
-                            td= 3
-                            td= 4
-                            td= 5
+                            td= names[index]
+                            td= reg_aprs[index]
+                            td= reg_balance_transfers[index]
+                            td= annual_fees[index]
+                            td= bonus_values[index]
