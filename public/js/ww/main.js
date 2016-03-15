@@ -22,8 +22,8 @@ $(document).ready(function() {
   });
 
   $("#annual_fee_content input[name='annual_fee_option']").click(function(){
-    var annual_fee_option = parseInt($('input:radio[name=annual_fee_option]:checked').val());console.log('click at: ' + annual_fee_option);
-/*    var card_network_option = $('input:radio[name=card_network_option]:checked').val();
+    var annual_fee_option = parseInt($('input:radio[name=annual_fee_option]:checked').val());
+    var card_network_option = $('input:radio[name=card_network_option]:checked').val();
     var credit_score_option = $('input:radio[name=credit_score_option]:checked').val();
 
     $('tr.data_row').each(function() {
@@ -66,7 +66,6 @@ $(document).ready(function() {
         $(this).hide();
       }
     });
-    */
   });
 
   $("#card_network_content input[name='card_network_option']").click(function(){

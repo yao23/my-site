@@ -71,6 +71,6 @@ block content
                         th Promotion
                 tbody
                     for credit_card, index in credit_cards
-                        tr.data-row(data-annual-fee=annual_fee_options[index] data-card-network=card_network_options[index] data-credit-score=credit_score_options[index])
+                        tr.data_row(data-annual-fee=annual_fee_options[index] data-card-network=card_network_options[index] data-credit-score=credit_score_options[index])
                             for card_info in credit_card
                                 td= card_info
